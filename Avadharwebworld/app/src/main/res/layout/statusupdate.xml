@@ -1,0 +1,125 @@
+<RelativeLayout
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forgot_password_popup_border"
+        android:id="@+id/cv_status_update">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="300dp"
+            android:id="@+id/btn_close_popup_status"
+            android:background="@drawable/ic_cancel_black_24dp"
+            android:clickable="true"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:id="@+id/linear_status_section"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_profile_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/logo"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:minLines="2"
+            android:layout_marginLeft="10dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:gravity="top"
+            android:layout_gravity="top"
+            android:hint="What's New?"
+            android:layout_alignRight="@+id/iv_profile_img"
+            android:id="@+id/et_status"
+            android:background="@color/backgroundwhite"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/view_status_below_edittext"
+        android:layout_below="@+id/linear_status_section"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lv_status_button_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sv_image_view"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/backgroundwhite"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/addphoto"
+            android:id="@+id/btn_addphoto" />
+
+        <ProgressBar
+            android:id="@+id/pbimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:progressDrawable="@drawable/circular_progress_bar"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            style="?android:attr/progressBarStyleLarge"
+            />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="118dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/backgroundwhite"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/update"
+            android:id="@+id/btn_update_status"
+            android:layout_weight="0.22" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/sv_image_view"
+        android:layout_below="@+id/view_status_below_edittext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/ll_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <RelativeLayout android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+            </RelativeLayout>
+      </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
+

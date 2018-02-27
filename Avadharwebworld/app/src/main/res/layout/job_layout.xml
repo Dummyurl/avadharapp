@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom= "10dp"
+    android:layout_marginTop="5dp"
+    style="@style/myImageView"
+    android:gravity="center">
+
+
+
+    <com.avadharwebworld.avadhar.Support.FeedImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="140dp"
+        style="@style/myImageView"
+        android:layout_gravity="center"
+        android:id="@+id/iv_job_feed">
+    </com.avadharwebworld.avadhar.Support.FeedImageView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:text="name"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_name"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#4a8c43"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/lv_job_id"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="@string/jobid"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_tempid"
+            android:textColor="@color/colorAccent"
+             />
+        <TextView
+            android:text="asdsadsaasdasdasdasdsdasdsadasdasdsa"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_id" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/lv_job_comapany"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="@string/company"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_tempcompany"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:text="asdsadsaasdasdasdasdsdasdsadasdasdsa"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_companyname" />
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/lv_job_jobetype"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="@string/jobtype"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_tempjobtype"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:text="asdsadsaasdasdasdasdsdasdsadasdasdsa"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_jobtype" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/lv_job_salary"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="@string/salary"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_tempsalry"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:text="asdsadsaasdasdasdasdsdasdsadasdasdsa"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_salary" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/lv_job_experience"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="@string/experience"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_temp_exprnc"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:text="asdsadsaasdasdasdasdsdasdsadasdasdsa"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_experince" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/lv_job_location"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:text="@string/joblocation"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_temp_location"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:text="asdsadsaasdasdasdasdsdasdsadasdasdsa"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:maxLines="5"
+            android:maxWidth="200dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_location" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="false"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:clipChildren="false"
+                android:id="@+id/rv_job_addedfavorite"
+                android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Added To Favorite"
+                android:textSize="15dp"
+                android:textColor="@color/colorBottomNavigationNotification"
+                android:id="@+id/tv_job_addedfavorite"
+                android:gravity="center"/>
+        </RelativeLayout>
+            <com.github.ivbaranov.mfb.MaterialFavoriteButton
+                android:layout_width="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:mfb_favorite_image="@drawable/jobfavorite"
+                app:mfb_not_favorite_image="@drawable/jobfavorite"
+                app:mfb_rotation_duration="400"
+                app:mfb_rotation_angle="360"
+                app:mfb_bounce_duration="300"
+                app:mfb_color="white"
+                app:mfb_type="heart"
+
+                android:id="@+id/iv_job_favorite" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lv_comment_layout"
+    android:padding="5dp">
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:background="@drawable/close"
+        android:id="@+id/button_comment_close"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="@color/homebackground">
+
+            <TextView
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:ems="10"
+                android:layout_gravity="top"
+                android:id="@+id/tv_comment_commentcount"
+                android:textColor="@color/colorBottomNavigationPrimary" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_comment"
+            android:layout_width="match_parent"
+            android:layout_height="393dp"
+            android:scrollbars="vertical"
+            android:background="#b9bcbf"
+
+            android:layout_alignParentBottom="true" />
+
+        <LinearLayout
+    android:layout_width="fill_parent"
+    android:id="@+id/ll_comment_box_comment_withbutton"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/ll_comment_box_comment"
+        android:layout_height="47dp"
+        android:background="@color/homebackground"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/user_pic"
+            android:id="@+id/iv_comment_profilepic"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:minLines="2"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="Comment"
+            android:imeOptions="actionDone"
+            android:textColor="@color/textcolor"
+            android:id="@+id/et_comment_" />
+
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_add_a_photo_black_24dp"
+            android:id="@+id/button_add_image"
+            android:layout_marginLeft="0dp"
+
+            android:layout_gravity="right"/>
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+           android:background="@drawable/comments"
+            android:layout_gravity="right"
+            android:id="@+id/button_comment"
+            />
+    </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

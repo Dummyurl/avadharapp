@@ -1,0 +1,1286 @@
+<resources>
+    <string name="app_name">Avadhar</string>
+
+    <string-array name="countriesList">
+        <item>Select Country</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Polynesia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Republic of the Congo</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthelemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="Country">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="profilefor">
+
+        <item>Myself</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Relative</item>
+        <item>Friend</item>
+    </string-array>
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="Nationalitywithhelp">
+        <item>Nationality</item>
+        <item>Indian</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="maritialstatus">
+        <item>Select Maritial Status</item>
+        <item>Single</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+    </string-array>
+    <string-array name="mstatus">
+        <item>Select</item>
+        <item>Single</item>
+        <item>In a relationship</item>
+        <item>Engaged</item>
+        <item>Married</item>
+        <item>Divorsed</item>
+        <item>Widow</item>
+
+    </string-array>
+    <string-array name="bodytype">
+        <item>Select Body Type</item>
+        <item>Fat</item>
+        <item>Normal</item>
+        <item>Thin</item>
+    </string-array>
+    <string-array name="physicalstatus">
+        <item>Select Physical Status</item>
+        <item>Normal</item>
+        <item>Handicapped</item>
+
+    </string-array>
+    <string-array name="complexion">
+        <item>Select Complexion</item>
+        <item>Dark</item>
+        <item>Fair</item>
+        <item>Medium</item>
+        <item>Very Fair</item>
+        <item>Whitish</item>
+
+    </string-array>
+    <string-array name="bloodgroup">
+        <item>Select BloodGroup</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="eatinghabit">
+        <item>Select Eating Habit</item>
+        <item>Vegitarian</item>
+        <item>Non Vegitarian</item>
+        <item>Eggetarian</item>
+    </string-array>
+    <string-array name="drinkinghabit">
+        <item>Select Drinking Habit</item>
+        <item>Never</item>
+        <item>Daily</item>
+        <item>Occasionally</item>
+    </string-array>
+    <string-array name="smokinghabit">
+        <item>Select Smoking Habit</item>
+        <item>Never</item>
+        <item>Daily</item>
+        <item>Occasionally</item>
+    </string-array>
+    <string-array name="employedin">
+        <item>Select Employment</item>
+        <item>MNC</item>
+        <item>Central Government</item>
+        <item>State Government</item>
+        <item>Public Sector</item>
+        <item>Public Sector</item>
+        <item>Not Working</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="yes">Yes</string>
+    <string name="logout">Logout</string>
+    <string name="university">University</string>
+    <string name="expereincesummary">Experieance Summary</string>
+    <string name="jobprofiledetails">Profile Details</string>
+    <string name="viewmyvacancy">My Vacancy</string>
+    <string name="no">No</string>
+    <string name="privacycheck">Do You Want Privacy For Communication Details ?</string>
+    <string name="commentcount">&#160;Comments</string>
+    <string name="unlike">Unlike</string>
+    <string name="Login">Login</string>
+    <string name="signup">Sign Up for Avadhar</string>
+    <string name="create">Create</string>
+    <string name="login_question">Already have an account ?</string>
+    <string name="login_text">Log In</string>
+    <string name="addphoto">Add Photo</string>
+    <string name="update">Update</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="recover_password">Recover Your Password</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="noDatafound">No Item Found</string>
+    <string name="noinfo">No Information Found</string>
+    <string name="nodata">No Data Found</string>
+    <string name="like">Like</string>
+    <string name="myteam1">Settings MyTeam</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+
+    <string name="matrimonyregistrationedit">Edit Matrimony Profile</string>
+    <string name="profilefor">Profile For</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="delete">Delete</string>
+    <string name="jobid">ID </string>
+    <string name="company">Company </string>
+    <string name="jobtype">Job Type </string>
+    <string name="salary">Salary </string>
+    <string name="experience">Experience </string>
+    <string name="joblocation">Location </string>
+    <string name="qualification">Qualification </string>
+    <string name="jobfield">Job Field </string>
+    <string name="jobrole">Job Role </string>
+    <string name="jobcontactname">Name </string>
+    <string name="jobcontactnumber">Number </string>
+    <string name="jobcontactemail">Send Your Resume To </string>
+
+    <string name="matrimonyinterest">Interested Profile</string>
+    <string name="postvacancy">Post Vacancy</string>
+    <string name="jobprofiles">Profiles</string>
+    <string name="myfavorites">My Favorites</string>
+    <string name="buypackage">Buy Packages</string>
+    <string name="mypackages">My Packages</string>
+    <string name="expectedsalary">Expected Salary</string>
+    <string name="jobname">Name</string>
+    <string name="interstedfield">Interested Field</string>
+    <string name="dateofbirth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="maritialstatus">Marital Status</string>
+    <string name="nationality">Nationality</string>
+    <string name="currentlocation">Current Location</string>
+    <string name="resumetitle">Resume Title</string>
+    <string name="joblocationsearch">Job Location</string>
+    <string name="interestedfield">Interested Field</string>
+    <string name="jobfulltime">Full-Time</string>
+    <string name="jobparttime">Part-Time</string>
+    <string name="jobaddress">Address</string>
+    <string name="jobfemale">Female</string>
+    <string name="jobmale">Male</string>
+    <string name="jobmaritialstatus">Maritial Status</string>
+    <string name="single">Single</string>
+    <string name="married">Married</string>
+    <string name="selectnationality">Select Nationality</string>
+    <string name="contactmobile">Contact Number</string>
+    <string name="profiledetails">Profile Details</string>
+    <string name="resumeheadline">Resume HeadLine</string>
+    <string name="distance">Distance</string>
+    <string name="prefjob">Pref.Job</string>
+    <string name="keyskill">Key Skill</string>
+    <string name="workhistory">Work History</string>
+    <string name="academicdetails">Academic Details</string>
+    <string name="modeofstudy">Mode Of Study</string>
+    <string name="next">Next</string>
+    <string name="otherdetails">Other Details</string>
+    <string name="matchedprofile">Matched Profile</string>
+    <string name="edit">Edit</string>
+    <string name="uploadresume">Upload Resume</string>
+    <string name="uploadphoto">Upload Photo</string>
+    <string name="languageknown">Language Known</string>
+    <string name="malayalam">Malayalam</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="tamil">Tamil</string>
+    <string name="others">Others</string>
+    <string name="nameorcompany">Name/Company</string>
+    <string name="noofvacnacy">No Of Vacancy</string>
+    <string name="jobtitle">Job Title</string>
+    <string name="companyemail">Email/Address</string>
+    <string name="viewjobpackage">My Package</string>
+    <string name="yearofpassout">Year Of PassOut</string>
+    <string name="silver">Sliver [50 Profiles Rs 300]</string>
+    <string name="gold">Gold [50 Profiles Rs 300]</string>
+    <string name="diamond">Diamond [50 Profiles Rs 300]</string>
+    <string name="horoscopedetails">Horoscope Details</string>
+    <string-array name="experience">
+        <item>Select Experience</item>
+        <item>0 Year</item>
+        <item>1 Year</item>
+        <item>2 Year</item>
+        <item>3 Year</item>
+        <item>4 Year</item>
+        <item>5 Year</item>
+        <item>6 Year</item>
+        <item>7 Year</item>
+        <item>8 Year</item>
+        <item>9 Year</item>
+        <item>10 Year</item>
+        <item>More than 10 Year</item>
+    </string-array>
+    <string-array name="matchingstar">
+
+        <item>Aswathi</item>
+        <item>Bharani</item>
+        <item>Karthika</item>
+        <item>Rohini</item>
+        <item>Makayaram</item>
+        <item>Thiruvathira</item>
+        <item>Punardam</item>
+        <item>Pooyam</item>
+        <item>Aayillyam</item>
+        <item>Makam</item>
+        <item>Pooram</item>
+        <item>Uthram</item>
+        <item>Atham</item>
+        <item>Chithira</item>
+        <item>Chothi</item>
+        <item>Vishagham</item>
+        <item>Aneezham</item>
+        <item>Thrikkettam</item>
+        <item>Moolam</item>
+        <item>Pooradam</item>
+        <item>Uthradam</item>
+        <item>Thiruvonam</item>
+        <item>Avittam</item>
+        <item>Chathayam</item>
+        <item>Pooruruttathi</item>
+        <item>Uthrattathi</item>
+        <item>Revathi</item>
+    </string-array>
+
+    <string-array name="malayalamstar">
+        <item>Select Star</item>
+        <item>Aswathi</item>
+        <item>Bharani</item>
+        <item>Karthika</item>
+        <item>Rohini</item>
+        <item>Makayaram</item>
+        <item>Thiruvathira</item>
+        <item>Punardam</item>
+        <item>Pooyam</item>
+        <item>Aayillyam</item>
+        <item>Makam</item>
+        <item>Pooram</item>
+        <item>Uthram</item>
+        <item>Atham</item>
+        <item>Chithira</item>
+        <item>Chothi</item>
+        <item>Vishagham</item>
+        <item>Aneezham</item>
+        <item>Thrikkettam</item>
+        <item>Moolam</item>
+        <item>Pooradam</item>
+        <item>Uthradam</item>
+        <item>Thiruvonam</item>
+        <item>Avittam</item>
+        <item>Chathayam</item>
+        <item>Pooruruttathi</item>
+        <item>Uthrattathi</item>
+        <item>Revathi</item>
+    </string-array>
+    <string-array name="typeofjathakam">
+        <item>Select Type Of Jathakam</item>
+        <item>Sudham</item>
+        <item>Paapam</item>
+        <item>Chovva</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="typeofrasi">
+        <item>Select Type Of Rasi</item>
+        <item>Chingam</item>
+        <item>Kanni</item>
+        <item>Thulam</item>
+        <item>Vrishchikam</item>
+        <item>Dhanu</item>
+        <item>Makaram</item>
+        <item>Kumbham</item>
+        <item>Meenam</item>
+        <item>Medam</item>
+        <item>Edavam</item>
+        <item>Midhunam</item>
+        <item>Karkidakam</item>
+    </string-array>
+    <string-array name="familytype">
+        <item>Select Family Type</item>
+        <item>Big</item>
+        <item>Medium</item>
+        <item>Nucliar</item>
+        <item>Small</item>
+
+    </string-array>
+    <string-array name="familystatus">
+        <item>Select Family Status</item>
+        <item>Middle</item>
+        <item>Upper Middle</item>
+        <item>Rich</item>
+    </string-array>
+    <string name="birthplace">Birth Place</string>
+    <string name="dobinmalayalam">Date Of Birth In Malayalam dd-mm-yyyy</string>
+    <string name="uploadgrahanila">Upload Grahanila</string>
+    <string name="birthtime">Birth Time</string>
+    <string name="father">Father</string>
+    <string name="mother">Mother</string>
+    <string name="brother">Brother</string>
+    <string name="sister">Sister</string>
+    <string name="other">Other</string>
+    <string name="uploadlogo">Upload Logo</string>
+    <string name="agelimit">Age Limit</string>
+
+    <string name="lastdate">Last date to Apply</string>
+    <string name="description">Job Description</string>
+    <string-array name="salary">
+        <item>Salary</item>
+        <item>Negotiable</item>
+        <item>Rs.1000-Rs.3000</item>
+        <item>Rs.3000-Rs.5000</item>
+        <item>Rs.5000-Rs.8000</item>
+        <item>Rs.8000-Rs.10000</item>
+        <item>Rs.10000-Rs.15000</item>
+        <item>Rs.15000-Rs.20000</item>
+        <item>Rs.20000-Rs.25000</item>
+        <item>Rs.25000-Rs.50000</item>
+        <item>Rs.50000-Rs.75000</item>
+        <item>Rs.75000-Rs.100000</item>
+        <item>Rs.100000-Rs.200000</item>
+        <item>Above Rs.200000</item>
+    </string-array>
+    <string-array name="monthlyincome">
+        <item>Select Monthly Income</item>
+        <item>Rs.1000-Rs.3000</item>
+        <item>Rs.3000-Rs.5000</item>
+        <item>Rs.5000-Rs.8000</item>
+        <item>Rs.8000-Rs.10000</item>
+        <item>Rs.10000-Rs.15000</item>
+        <item>Rs.15000-Rs.20000</item>
+        <item>Rs.20000-Rs.25000</item>
+        <item>Rs.25000-Rs.50000</item>
+        <item>Rs.50000-Rs.75000</item>
+        <item>Rs.75000-Rs.100000</item>
+        <item>Rs.100000-Rs.200000</item>
+        <item>Above Rs.200000</item>
+    </string-array>
+    <string-array name="fuel">
+        <item>Select</item>
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>LPG</item>
+        <item>CNG</item>
+        <item>CNG and Hybrid</item>
+    </string-array>
+    <string-array name="expectedsalary">
+        <item>Select Expected Salary</item>
+        <item>Rs.1000-Rs.3000</item>
+        <item>Rs.3000-Rs.5000</item>
+        <item>Rs.5000-Rs.8000</item>
+        <item>Rs.8000-Rs.10000</item>
+        <item>Rs.10000-Rs.15000</item>
+        <item>Rs.15000-Rs.20000</item>
+        <item>Rs.20000-Rs.25000</item>
+        <item>Rs.25000-Rs.50000</item>
+        <item>Rs.50000-Rs.75000</item>
+        <item>Rs.75000-Rs.100000</item>
+        <item>Rs.100000-Rs.200000</item>
+        <item>Above Rs.200000</item>
+    </string-array>
+    <string-array name="property">
+        <item>Categories</item>
+        <item>Residencial</item>
+        <item>Commercial</item>
+    </string-array>
+
+    <string-array name="typeofactivity">
+        <item>Select</item>
+        <item>Buy</item>
+        <item>Rent</item>
+        <item>PayIn Guest and Accomodation</item>
+        <item>Sell For Plot/Land</item>
+    </string-array>
+    <string-array name="typeofuser">
+        <item>Select</item>
+        <item>Owner</item>
+        <item>Agend And Brocker</item>
+        <item>Buyer</item>
+        <item>Seller</item>
+        <item>Renter</item>
+    </string-array>
+    <string name="brocker">Brocker</string>
+    <string-array name="furnished">
+        <item>Select</item>
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+
+    <string name="pricefrom">Price From</string>
+    <string name="buyorsell">Buy or Sell</string>
+
+    <string name="priceto">Price To</string>
+    <string name="type">Type</string>
+    <string name="lookingfor">Looking For</string>
+    <string name="bride">Bride</string>
+    <string name="buy">Buy</string>
+    <string name="caste">Caste</string>
+    <string name="all">All</string>
+    <string name="buyandselledit">Edit Post</string>
+    <string name="bridegroom">Bride or Groom</string>
+    <string name="typeofjathakam">Type of Jathakam</string>
+    <string name="groom">Groom</string>
+    <string name="property">Property</string>
+    <string name="kmdriven">Km Driven</string>
+    <string name="colour">Colour</string>
+    <string name="indivitual">INDIVITUAL</string>
+    <string name="youare">You are</string>
+    <string name="searchresult">Search Result</string>
+    <string name="buyandselldescrtiption">Description</string>
+    <string name="pincode">City Pincode</string>
+    <string name="dealer">DEALER</string>
+    <string name="propertyid">Property id</string>
+    <string name="furnished">Furnished</string>
+    <string name="profileid">Profile Id</string>
+    <string name="typeofproperty">Type of Property</string>
+    <string name="price">Price</string>
+    <string name="city">City</string>
+    <string name="tokenamount">Token Amount</string>
+    <string name="landarea">Land Or Plot Area</string>
+    <string name="buildarea">Covered Or Build Area</string>
+    <string name="transactiontype">Transaction Type</string>
+    <string name="new1">New</string>
+    <string name="resale">Resale</string>
+    <string name="ageofproperty">Age Of Property</string>
+    <string name="avaliablefromproperty">Available From Propery</string>
+    <string name="ownername">Owner Name</string>
+
+    <string name="typeofactivity">Type of Activity</string>
+    <string name="typeofuser">Type of User</string>
+    <string name="propertydetails">Property Details</string>
+    <string name="moreaboutproperty">More Details about Property:</string>
+    <string name="availableproperty">Available Property</string>
+    <string name="totalarea">Total Area</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="basicprpertyinformation">Basic Property Information</string>
+    <string name="propertyfeature">Property Feature</string>
+    <string name="buyer">Buyer</string>
+    <string name="seller">Seller</string>
+    <string name="subcategory">Sub Category</string>
+    <string name="fuel">Fuel</string>
+    <string name="year">Year</string>
+    <string name="postfreeadd">Post Free Add</string>
+    <string name="postbuyandsell">Buy and Sell Post Add</string>
+    <string name="category">Category</string>
+    <string name="ageofitem">Age of Item</string>
+    <string name="nav_education">Education</string>
+    <string name="nav_jobs">Jobs</string>
+    <string name="buydescription">Description</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="nav_matrimonial">Matrimonial</string>
+    <string name="nav_realestate">Realestate</string>
+    <string name="nav_buyandsell">Buy and Sell</string>
+    <string name="nav_eshop" translatable="false">E-Shop</string>
+    <string name="nav_hisstory">His-Story</string>
+    <string name="title">Title</string>
+    <string name="hisstorydescription">Description</string>
+    <string name="readmore">Read More</string>
+    <string name="viewadd">View Ads</string>
+    <string name="postrealestate">Post Realestate Ads</string>
+    <string name="interestsend">Interest Send</string>
+    <string name="interestrecieved">Interest Recieved</string>
+    <string name="hisstorypost">His-Story Posts</string>
+    <string name="toprating">Top Rating</string>
+    <string name="latest">Latest</string>
+    <string name="action_settings">Settings</string>
+    <string name="jobandeducationdetials">Job and Education Details</string>
+    <string name="affiliatedto">Affiliated To :</string>
+    <string name="affiliationmode">Affiliation Mode :</string>
+    <string name="location">Location :</string>
+    <string name="coursedetails">Course Details </string>
+    <string name="coursedetails1">Course Details :</string>
+    <string name="coursename">Course Name :</string>
+    <string name="editrealestate">Edit Realestate</string>
+    <string name="uploadpic">Upload Pic</string>
+    <string name="contactdetails">Contact Details </string>
+    <string name="additionalqualification">Additional Qualification, If Any</string>
+    <string name="institutiondetails">Institution Address :</string>
+    <string name="contactperson">Contact Person :</string>
+    <string name="contactNumber">Contact Number :</string>
+    <string name="website">Website :</string>
+    <string name="emailedu">Email :</string>
+    <string name="recieved">Recieved</string>
+    <string name="send">Send</string>
+    <string name="selectplan">Select Plan</string>
+    <string name="requirements">Realestate Requirements</string>
+    <string name="rmatichingprofile">Matching Profiles</string>
+    <string name="companyname">Compnay Name</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="propertytype">Property Type</string>
+    <string name="activitytype">Activity Type</string>
+    <string name="expprice">Expected Price</string>
+    <string name="expectedprice">Expected Price</string>
+    <string name="moredetails">More Details About Property</string>
+    <string name="designation">Designation</string>
+    <string name="worklocation">Work Location</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="confirm">Confirm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="postresume">Post Resume</string>
+    <string name="coursenamesearch">CourseName</string>
+    <string name="eligibilitysearch">Eligibility</string>
+    <string name="countrysearch">Country</string>
+    <string name="statesearch">State</string>
+    <string name="citysearch">City</string>
+    <string name="institutionnamesearch">Institution Name</string>
+    <string name="affiliationmodesearch">Affilition Mode</string>
+    <string name="affiliatedtosearch">Affiliated To</string>
+    <string name="search">Search</string>
+    <string name="searchfilter">Filter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_social_media">SocialMedia</string>
+    <string name="title_activity_Status_view">Status</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="follow">Follow</string>
+    <string name="about">About</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="matrimonydetails">Profile Details</string>
+    <string name="religion">Religion</string>
+    <string name="sendrequest">Send Request</string>
+    <string name="age">Age</string>
+    <string name="personaldetails">Personal Details</string>
+    <string name="permenentaddress">Permanent Address</string>
+    <string name="communicationaddress">Communication Address</string>
+    <string name="physicaldetails">Physical Details</string>
+    <string name="jobandeducation">Job &amp; Education</string>
+    <string name="family">Family</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="partnerdetails">Partner Details</string>
+    <string name="agebetween">Age Between</string>
+    <string name="heightbetween">Height Between</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="complexion">Complexion</string>
+    <string name="physicalstatus">Physical Status</string>
+    <string name="bloodgroup">Blood Group</string>
+    <string name="habit">Eating Habits</string>
+    <string name="drinking">Drinking</string>
+    <string name="smoking">Smoking</string>
+    <string name="employedin">Employed In</string>
+    <string name="monthlyIncome">Monthly Income</string>
+    <string name="fieldOfStudy">Field Of Study </string>
+    <string name="additionalQualification">Additional Qualification</string>
+    <string name="familyType">Family Type</string>
+    <string name="familyStatus">Family Status</string>
+    <string name="familyMembers">Family Members</string>
+    <string name="fathername">Fathers Name</string>
+    <string name="fatherjob">Fathers Job</string>
+    <string name="mothername">Mothers Name</string>
+    <string name="motherjob">Mothers Job</string>
+    <string name="bodytype">Body Type</string>
+    <string name="landline">LandLine</string>
+    <string name="save">Save</string>
+    <string name="nativelocation">Native Location</string>
+    <string name="exceptionandconcept">Exceptions and Concepts</string>
+    <string name="parterworklocation">Partner Work Location</string>
+    <string name="jobcategory">Job Category</string>
+    <string name="jobposition">Job Position</string>
+    <string name="noofsis">No of Sisters</string>
+    <string name="noofbro">No of Brothers</string>
+    <string name="othermember">Other Members</string>
+    <string name="star">Star</string>
+    <string name="familydetails">Family Details</string>
+    <string name="jathakam">Jathakam</string>
+    <string name="rasi">Rasi</string>
+    <string name="matrimonyregistration">Matrimony Registration</string>
+    <string name="BirthPlace">Birth Place</string>
+    <string name="DateofBirthMalayalam">Date of Birth(Malayalam)</string>
+    <string name="BirthTime">Birth Time</string>
+    <string name="grahanila">Grahanila</string>
+    <string name="PreferredAge">Preferred Age</string>
+    <string name="PreferredHeight">Preferred Height</string>
+    <string name="PreferredJob">Preferred Job</string>
+    <string name="PreferredJobLocation">Preferred Job Location</string>
+    <string name="MatchingStars">MatchingStars</string>
+    <string name="PreferredLocation">Preferred Location</string>
+    <string name="PreferredFamilyStatus">Preferred Family Status</string>
+    <string name="Concept">Concept</string>
+    <string name="presentaddress">Present Address</string>
+    <string name="name">Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="partnerpref">Partner Job Position</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string name="sponserid">Sponser Id</string>
+    <string-array name="Religion">
+        <item>Select</item>
+        <item>Hindu</item>
+        <item>Christian</item>
+        <item>Muslim</item>
+        <item>Intercaste</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string name="housename">House Name</string>
+    <string name="address">Address</string>
+    <string name="pin">Pin</string>
+    <string name="accountdetails">Account Details</string>
+    <string name="bankname">Bank Name</string>
+    <string name="Branch">Branch</string>
+    <string name="ifsc">IFSC</string>
+    <string name="acno">A/c No</string>
+    <string name="profilesettings">Profile Settings</string>
+
+    <string name="personalsettings">Personal Settings</string>
+    <string name="registration">Registration</string>
+    <string name="interestedprofile">Interested Profile</string>
+    <string name="profilerequest">Profile Request</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="food">
+        <item>select</item>
+        <item>Vegetarian</item>
+        <item>Non Vegitarian</item>
+        <item>Both</item>
+    </string-array>
+    <string name="academic1">Academic Settings</string>
+
+    <string name="school">School</string>
+    <string name="compnaylocation">Company Location</string>
+    <string name="about1">About Settings</string>
+    <string name="yourfavorite">Your Favorite</string>
+    <string name="foodstatus">Food Status</string>
+    <string name="hobbies">Your Hobbies</string>
+    <string name="languages">Languages</string>
+    <string name="lifeevent">Your Life Event</string>
+
+    <string name="yearfrom">Year From</string>
+    <string name="yearto">Year To</string>
+    <string name="college">College</string>
+    <string name="areyouan">Are You An </string>
+    <string name="work">Work</string>
+    <string name="employee">Employee</string>
+    <string name="other1">Others</string>
+    <string name="currentyworkingcomplany">Working Company</string>
+    <string name="currentyworkingas">Working As</string>
+    <string name="companylocation">Company Location</string>
+    <string name="startedworking">Started Working On</string>
+    <string name="field">Field</string>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_jon_post_resume">JonPostResume</string>
+    <string name="title_activity_job_post_resume">JobPostResume</string>
+    <string name="title_activity_job_post_resume_one">JobPostResumeOne</string>
+    <string name="jobpositiondata">Admin/Secretarial,
+Advertising/ Entertainment/ Media,
+Agriculture,
+Architecture and Design,
+Artists, Animators And Web Designers,
+Banking, Insurance And Financial Services,
+Beauty, Fashion And Jewellery Designers,
+Business Owner / Entrepreneur,
+Civil Services / Law Enforcement,
+Construction,
+Customer Service/ Call Centre/BPO,
+Defence,
+Education/ Training,
+Electronics,
+Export/ Import,
+Finance and Accounts,
+Government Employee,
+Health Care,
+Hotels/ Restaurants,
+Human Resource,
+IT,
+Legal,
+Loss Prevention Manager,
+Management / Corporate Professionals,
+Manufacturing/ Engineering/ RandD,
+Marketing and Communications,
+Merchant Navy,
+Non Working,
+Oil and Gas,
+Others,
+Pharmaceutical/ Biotechnology,
+Purchase/ Logistics/ Supply chain,
+Real Estate,
+Retail Chains,
+Sales/ Business Development,
+Science,
+Telecom/ ISP,
+Travel/ Airlines</string>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="password">Password</string>
+    <string name="changepassword">Change Password</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="profilepicture">Profile Picture</string>
+    <string name="status">Status</string>
+    <string name="personal">Personal</string>
+    <string name="account">Account</string>
+    <string name="academic">Academic/Work</string>
+    <string name="myteam">My Team</string>
+    <string-array name="settings">
+        <item>@string/profile</item>
+        <item>@string/personal</item>
+        <item>@string/academic</item>
+        <item>@string/about</item>
+        <item>@string/account</item>
+        <item>@string/myteam</item>
+    </string-array>
+</resources>
+

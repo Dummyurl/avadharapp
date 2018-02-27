@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group >
+        <item
+            android:id="@+id/menu_home_profile"
+
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/menu_home_following"
+
+            android:title="@string/following" />
+        <item
+            android:id="@+id/menu_home_followers"
+
+            android:title="@string/followers" />
+        <item
+            android:id="@+id/menu_home_settings"
+
+            android:title="@string/action_settings" />
+
+    </group>
+
+
+</menu>

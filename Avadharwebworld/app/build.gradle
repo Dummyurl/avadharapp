@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.avadharwebworld.avadhar"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //recycle animation
+    //Rounded imageview
+    //bottom bar
+    //fonts from external library
+    //file upload async http
+    compile('org.apache.httpcomponents:httpmime:4.3') {
+        exclude module: "httpclient"
+    }
+    compile files('libs/apache-httpcomponents-httpclient.jar')
+    //volley
+    //edittext materail
+    //spinner material
+    //favorite click effect
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'jp.wasabeef:recyclerview-animators:2.2.4'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.roughike:bottom-bar:2.0.2'
+    compile 'com.aurelhubert:ahbottomnavigation:1.3.3'
+    compile 'com.github.ksoichiro:android-observablescrollview:1.6.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.vstechlab.easyfonts:easyfonts:1.0.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.android.support:support-vector-drawable:23.4.0'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'com.weiwangcn.betterspinner:library-material:1.1.0'
+    compile 'com.github.ivbaranov:materialfavoritebutton:0.1.2'
+    testCompile 'junit:junit:4.12'
+}
+repositories {
+    maven {
+        url 'https://maven.google.com'
+    }
+}

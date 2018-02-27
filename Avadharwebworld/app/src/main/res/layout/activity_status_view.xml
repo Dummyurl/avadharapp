@@ -1,0 +1,131 @@
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/statusview_news_feed_card"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/status_border"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.android.volley.toolbox.NetworkImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/statusview_profileimg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/logo"
+            android:scaleType="fitXY"
+            app:civ_border_color="#C2C2C2">
+        </com.android.volley.toolbox.NetworkImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusview_tv_elementname_withpic"
+                android:text="AVADHAR NEWS"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusview__tv_elementposttime_withpic"
+                android:text="Time"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusview_tv_elementpost_text_with_pic"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusview_tv_elementpost_url_with_pic"
+        android:text="fs"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/statusview_viewpager_postimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone">
+    </android.support.v4.view.ViewPager>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/statusview_iv_withpic_card"
+        android:layout_marginTop="10dp"
+        android:id="@+id/statusview_view_strightline"
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_like_box"
+        android:layout_height="30dp"
+        android:layout_below="@+id/statusview_view_strightline"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/like"
+            android:textColor="@color/bb_inActiveBottomBarItemColor"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:id="@+id/statusview_tv_element_like_withpic"/>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/comment"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/bb_inActiveBottomBarItemColor"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:id="@+id/statusview_tv_element_comment_withpic"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/share"
+            android:clickable="true"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/bb_inActiveBottomBarItemColor"
+            android:textSize="20dp"
+            android:id="@+id/statusview_tv_element_share_withpic"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#969fad"/>
+
+
+</LinearLayout>
+
+
+
+

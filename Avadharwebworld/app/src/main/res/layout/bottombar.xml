@@ -1,0 +1,43 @@
+<android.support.v7.widget.Toolbar android:id="@+id/bottom_toolbar"
+android:layout_width="wrap_content"
+android:layout_height="?attr/actionBarSize"
+android:layout_gravity="fill_horizontal|bottom"
+android:background="@drawable/backgroud_transparent"
+app:popupTheme="@style/AppTheme.PopupOverlay"
+app:layout_scrollFlags="scroll|enterAlways"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|center"
+        android:orientation="horizontal">
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+            android:clickable="true"
+            android:background="@drawable/bottom_button_border"
+            android:id="@+id/btn_main_Profile" />
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_gallery"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:background="@drawable/bottom_button_border"
+            android:id="@+id/btn_main_logout" />
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_menu_send"
+            android:clickable="true"
+            android:background="@drawable/bottom_button_border"
+            android:id="@+id/btn_main_setting" />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

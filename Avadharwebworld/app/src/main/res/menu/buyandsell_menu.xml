@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buyandsell_action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_buyandsell_filter_search"
+        android:icon="@drawable/searchfilter"
+
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/search" />
+    <group >
+        <item
+            android:id="@+id/menu_buyandsell_post"
+
+            android:title="@string/postfreeadd" />
+        <item
+            android:id="@+id/menu_buyandsell_viewads"
+
+            android:title="@string/viewadd" />
+        <item
+            android:id="@+id/menu_buyandsell_favorite"
+
+            android:title="@string/myfavorites" />
+        <item
+            android:id="@+id/menu_buyandsell_interestrecieved"
+
+            android:title="@string/interestrecieved" />
+        <item
+            android:id="@+id/menu_buyandsell_buypackage"
+
+            android:title="@string/buypackage" />
+        <item
+            android:id="@+id/menu_buyandsell_mypackage"
+
+            android:title="@string/mypackages" />
+    </group>
+
+
+</menu>

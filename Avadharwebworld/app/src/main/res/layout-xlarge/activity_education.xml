@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layour_education"
+    android:foreground="@drawable/backgroud_transparent"
+    android:clickable="false">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_education"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        tools:context="com.avadharwebworld.avadhar.Activity.Education">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_education"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:background="@color/backgroundwhite"></android.support.v7.widget.RecyclerView>
+        <TextView
+            android:id="@+id/tv_education_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textSize="20dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:text="@string/noDatafound"
+            />
+
+    </RelativeLayout>
+</FrameLayout>

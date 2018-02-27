@@ -1,0 +1,89 @@
+<LinearLayout android:layout_width="150dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:id="@+id/profile_layout"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/LL_followSuggestion_view"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <com.avadharwebworld.avadhar.Support.ProfileImageView
+                android:id="@+id/followSuggestion_coverimage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+
+                style="@style/myImageView"
+                android:src="@drawable/ic_account_circle_black_48dp" >
+            </com.avadharwebworld.avadhar.Support.ProfileImageView>
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal|center"
+                android:id="@+id/followSuggestion_profile"
+                android:layout_marginBottom="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                >
+
+                <com.avadharwebworld.avadhar.Support.ProfileImageView
+                    android:id="@+id/followSuggestion_profileimage"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="bottom|left"
+                    style="@style/myImageView"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/ic_account_circle_black_48dp" >
+                </com.avadharwebworld.avadhar.Support.ProfileImageView>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/followSuggestion_name"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:text="name"
+                android:maxLines="2"
+                android:layout_marginBottom="5dp"
+                android:maxWidth="200dp"
+               android:background="@color/backgroundwhite"
+               android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/cardview_dark_background"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:layout_gravity="center">
+
+        <Button
+            android:text="@string/follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/followSuggestion_btn_follow"
+            android:textSize="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

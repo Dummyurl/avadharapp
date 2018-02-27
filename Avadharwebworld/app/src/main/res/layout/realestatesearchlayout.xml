@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/popupborder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="5dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/property"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_realestate_search_property"
+                android:spinnerMode="dialog"
+                android:layout_margin="2dp"
+                />
+            <TextView
+                android:text="@string/typeofproperty"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_realestate_search_typeofproperty"
+                android:spinnerMode="dialog"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:text="@string/typeofuser"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_realestate_search_typeofuser"
+                android:spinnerMode="dialog"
+                android:layout_margin="2dp"
+                android:entries="@array/typeofuser"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/expectedprice"
+                android:inputType="text"
+                android:id="@+id/et_realestate_search_price"
+                app:met_floatingLabel="normal" />
+
+            <TextView
+                android:text="@string/typeofactivity"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_realestate_search_typeofactivity"
+                android:spinnerMode="dialog"
+                android:layout_margin="2dp"
+                android:entries="@array/typeofactivity"
+                />
+            <TextView
+                android:text="@string/country"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_realestate_search_country"
+                android:spinnerMode="dialog"
+                android:layout_margin="2dp"
+
+                />
+            <TextView
+                android:text="@string/state"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_realestate_search_state"
+                android:spinnerMode="dialog"
+                android:layout_margin="2dp"
+
+                />
+            <TextView
+                android:text="@string/city"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                />
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_realestate_search_city"
+                android:spinnerMode="dialog"
+                android:layout_margin="2dp"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_realestate_search_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/moreaboutproperty"
+                android:inputType="text"
+                app:met_floatingLabel="normal" />
+
+
+            <Button
+                android:text="@string/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_realestate_search_save"
+                android:layout_weight="0.08" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

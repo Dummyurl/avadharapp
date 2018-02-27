@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/activity_view_matrimony_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.avadharwebworld.avadhar.Activity.ViewMatrimonyDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <com.avadharwebworld.avadhar.Support.FeedImageView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="140dp"
+            style="@style/myImageView"
+            android:layout_gravity="center"
+            android:id="@+id/iv_matrimony_details_feed">
+        </com.avadharwebworld.avadhar.Support.FeedImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_name"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="@string/jobname"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_tempname"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_name" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_comapany"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="@string/jobid"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_tempcompany"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_id" />
+
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_jobetype"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/age"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_tempjobtype"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_age" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_dfg"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/religion"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_relg"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_religion" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_intesrested"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/maritialstatus"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_enterested"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_maritialstatus" />
+
+        </LinearLayout>
+        <TextView
+            android:text="@string/personaldetails"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tv_matrimony_details_personal"
+            android:textColor="@color/bb_darkBackgroundColor"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/viewUnderline"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rl_matrimony_details_privay">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/lock"
+                android:visibility="gone"
+                android:id="@+id/iv_matrimony_details_lock" />
+
+            <Button
+                android:text="@string/sendrequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btn_matrimony_detials_sendinterest" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:id="@+id/ll_matrimony_details_personaldetails">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_jobrole"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/email"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_tempjobrole"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_email" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_experience"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/contactNumber"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_temp_exprnc"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="5"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_mobile" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_matrimony_details_expectedsalary"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/permenentaddress"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_tempexpectedsalary"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:minLines="2"
+                android:ems="10"
+                android:maxLines="3"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_permenataddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/communicationaddress"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_tempsds"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:minLines="2"
+                android:ems="10"
+                android:maxLines="3"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_matrimony_details_communicationaddress" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/iv_matrimony_details_favorite"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_favorite_black_24dp"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/iv_matrimony_details_thump"
+                android:src="@drawable/ic_thumb_up_black_18dp"/>
+        </LinearLayout>
+
+        </LinearLayout>
+        </RelativeLayout>
+        <TabHost
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/th_matrimony_details_details"
+            android:layout_weight="0.68">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/matri_tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_matrimony_details_tab1_dob"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/weight"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_tempweight"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_weight" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_matrimony_details_tab1_gender"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/height"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_tab1_tempheight"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_height" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_matrimony_details_tab1_maritialstatus"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/complexion"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_tab1_tempmaritialstatus"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_complexion" />
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_matrimony_details_tab1_joblocation"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/physicalstatus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_tab1_tempjoblocation"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_physicalstatus" />
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_matrimony_details_tab1_email"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/bloodgroup"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_tab1_tempemail"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_bloodgroup" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_matrimony_details_tab1_number"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/bodytype"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_tab1_tempnumber"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_bodytype" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/habit"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_habit" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/drinking"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_drinking" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/smoking"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_smoking" />
+
+                            />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/matri_tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/employedin"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_employedin" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/jobcategory"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_jobcategory" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/jobposition"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_jobposition" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/joblocation"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_joblocation" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/company"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_companyname" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/monthlyIncome"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_monthlyincome" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/qualification"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_qualification" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/fieldOfStudy"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_fieldofstudy" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/additionalQualification"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_additionalqualification" />
+
+                            />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/matri_tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/familyType"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_familytype" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/familyStatus"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_familystatus" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/familyMembers"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_familymembers" />/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/fathername"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_fathername" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/fatherjob"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_fatherjob" />/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/mothername"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_mothername" />/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/motherjob"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_motherjob" />/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/noofsis"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_noofsis" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/noofbro"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_noofbros" />/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/othermember"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_othermembers" />/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/matri_tab4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/star"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_star" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/jathakam"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_jathakam" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/rasi"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_rasi" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/BirthPlace"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_birthplace" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/DateofBirthMalayalam"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_dobinmalayam" />/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/BirthTime"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_birthtime" />/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/grahanila"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <com.avadharwebworld.avadhar.Support.FeedImageView
+                                android:layout_margin="10dp"
+                                android:layout_width="130dp"
+                                android:visibility="visible"
+                                android:layout_height="130dp"
+                                style="@style/myImageView"
+                                android:layout_gravity="center"
+                                android:id="@+id/iv_matrimony_details_grahanila">
+                            </com.avadharwebworld.avadhar.Support.FeedImageView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/matri_tab5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/PreferredAge"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_prefage" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/PreferredHeight"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_prefheight" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/prefjob"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_prefjob" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/PreferredJobLocation"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_prefjoblocation" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/MatchingStars"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_matchingstar" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/PreferredLocation"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_preflocation" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/PreferredFamilyStatus"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_preffamilystatus" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/Concept"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_matrimony_details_concept" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+    </LinearLayout>
+</ScrollView>
+

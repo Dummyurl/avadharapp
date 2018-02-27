@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layour_login"
+    android:background="@drawable/backgroud_transparent"
+    android:clickable="false"
+
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background2">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/logo"
+            android:src="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_username"
+            android:hint="Email/Username"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:drawableLeft="@drawable/person"
+            android:background="@color/backgroundwhite"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="48dp"
+            android:layout_marginEnd="48dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:drawableLeft="@drawable/lock"
+            android:background="@color/backgroundwhite"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/et_username"
+            android:layout_alignLeft="@+id/et_username"
+            android:layout_alignStart="@+id/et_username"
+            android:layout_alignRight="@+id/et_username"
+            android:layout_alignEnd="@+id/et_username"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textColor="@color/backgroundwhite"
+            android:textSize="20dp"
+            android:id="@+id/btn_login"
+            android:background="@drawable/btn_corner"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/et_password"
+            android:layout_alignLeft="@+id/logo"
+            android:layout_alignStart="@+id/logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/backgroundwhite"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/forgot_password"
+            android:id="@+id/t_forgot_password"
+            android:layout_below="@+id/btn_login"
+            android:layout_centerHorizontal="true" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:background="@drawable/btn_corner1"
+            android:textColor="@color/backgroundwhite"
+            android:textSize="20dp"
+            android:id="@+id/btn_signup"
+            android:layout_above="@+id/t_forgot_password"
+            android:layout_alignRight="@+id/logo"
+            android:layout_alignEnd="@+id/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Copyright © 2018 Spegame. All Rights Reserved"
+            android:id="@+id/textView5"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/t_forgot_password"
+            android:layout_alignLeft="@+id/et_password"
+            android:layout_alignStart="@+id/et_password" />
+
+    </RelativeLayout>
+</FrameLayout>

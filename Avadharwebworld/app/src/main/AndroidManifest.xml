@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.avadharwebworld.avadhar">
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+     <application
+        android:name=".Application.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+         android:hardwareAccelerated="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="avadhar.com"
+                    android:scheme="http" />
+                <data
+                    android:host="www.avadhar.com"
+                    android:scheme="http" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SocialMedia"
+            android:label="@string/title_activity_social_media"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".Application.IncomingSms">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+         <activity
+            android:name=".Activity.ConfirmOtp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.StatusView"
+            android:label="@string/title_activity_Status_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Profile"
+            android:label="@string/profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Following"
+            android:label="@string/following"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Followers"
+            android:label="@string/followers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Settings"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".Activity.Education"
+            android:label="@string/nav_education"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Jobs"
+            android:label="@string/nav_jobs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Matrimonial"
+            android:label="@string/nav_matrimonial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.RealEstate"
+            android:label="@string/nav_realestate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.BuyAndSell"
+            android:label="@string/nav_buyandsell"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.HisStory"
+            android:label="@string/nav_hisstory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Eshop"
+            android:label="@string/nav_eshop"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.ViewEducationDetails" />
+        <activity android:name=".Activity.ViewJobDetails" />
+        <activity android:name=".Activity.ViewJobProfileList" />
+        <activity android:name=".Activity.ViewJobProfileDetails" />
+        <activity android:name=".Activity.JobPostResume" />
+        <activity
+            android:name=".Activity.JobPostResumeOne"
+            android:label="@string/title_activity_job_post_resume_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.JobPostVacancy" />
+        <activity android:name=".Activity.JobMyFavorites" />
+        <activity android:name=".Activity.JobBuyPackage" />
+        <activity android:name=".Activity.ViewMyJobPackage" />
+        <activity android:name=".Activity.ViewMatrimonyDetails" />
+        <activity android:name=".Activity.MatrimonyRegistration" />
+        <activity android:name=".Activity.MatrimonyMyFavorite" />
+        <activity android:name=".Activity.MatrimonyInterestedProfile" />
+        <activity android:name=".Activity.MatrimonyRegistrationEdit" />
+        <activity android:name=".Activity.MatrimonyEditProfile" />
+        <activity android:name=".Activity.MatrimonyProfileRequest" />
+        <activity android:name=".Activity.ViewRealestateDetails" />
+        <activity android:name=".Activity.RealestateMyFavorites" />
+        <activity android:name=".Activity.RealestateInterestSend" />
+        <activity android:name=".Activity.RealestateInterestRecieved" />
+        <activity android:name=".Activity.RealestateBuyPackage" />
+        <activity android:name=".Activity.RealestateViewAds" />
+        <activity android:name=".Activity.RealestateRegistration" />
+        <activity android:name=".Activity.RealestateMyPackage" />
+        <activity android:name=".Activity.RealestateRegistrationEdit" />
+        <activity android:name=".Activity.ViewBuyandSellDetails" />
+        <activity android:name=".Activity.BuyandsellPostAdd" />
+        <activity android:name=".Activity.BuyandsellViewAdd" />
+        <activity android:name=".Activity.BuyandsellInterestRecieved" />
+        <activity android:name=".Activity.BuyandsellMyFavorite" />
+        <activity android:name=".Activity.BuyandsellBuypackage" />
+        <activity android:name=".Activity.BuyandsellMyPackage" />
+        <activity android:name=".Activity.MatrimonyBuyPackage" />
+        <activity android:name=".Activity.MatrimonyMyPackage" />
+        <activity android:name=".Activity.BuyandsellEditPost" />
+        <activity android:name=".Activity.JobMyVacancyPost" />
+        <activity
+            android:name=".Activity.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Activity.SettingsPersonal" />
+        <activity android:name=".Activity.SettingsProfile" />
+        <activity android:name=".Activity.SettingsAcademic" />
+        <activity android:name=".Activity.SettingsAbout" />
+        <activity android:name=".Activity.SettingsAccount" />
+        <activity android:name=".Activity.SettingsMyteam"></activity>
+    </application>
+
+</manifest>

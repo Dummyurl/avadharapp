@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:id="@+id/hisstory_viewetailed_lay"
+    style="@style/myImageView">
+
+    <TextView
+        android:id="@+id/tv_hisstory_viewdetailed_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bb_darkBackgroundColor"
+        android:textSize="20dp"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.android.volley.toolbox.NetworkImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_hisstory_viewetailed_image"
+            android:layout_width="50dp"
+            android:layout_gravity="left"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/logo"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:civ_border_color="#C2C2C2">
+        </com.android.volley.toolbox.NetworkImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_hisstory_viewetailed_name"
+                android:text=""
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_hisstoryetailed_time"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_hisstory_viewetailed_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:maxLines = "15"
+        android:scrollbars = "vertical"
+        android:text=""
+        android:layout_marginBottom="8dp"
+        />
+
+    <RatingBar
+        android:id="@+id/rb_hisstory_tab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

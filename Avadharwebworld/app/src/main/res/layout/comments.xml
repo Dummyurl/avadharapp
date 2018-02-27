@@ -1,0 +1,106 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/comment_items"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:background="@drawable/status_border"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+     <com.android.volley.toolbox.NetworkImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/_comment_profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/logo"
+         android:visibility="visible"
+        app:civ_border_color="#C2C2C2"/>
+        <LinearLayout android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_comment_username"
+        android:text="AVADHAR NEWS"
+
+        android:layout_marginLeft="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_comment_time"
+                    android:text="Time"
+                    android:textSize="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_comment_like"
+                    android:text="@string/like"
+                    android:textSize="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_comment_like_count"
+                    android:text="count"
+                    android:textSize="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="130dp"
+        android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginTop="5dp" android:orientation="vertical" android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/tv_comment_comment" android:text="comment" android:layout_marginLeft="10dp" android:visibility="visible"/>
+
+        <com.avadharwebworld.avadhar.Support.FeedImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:id="@+id/iv_comment_image">
+        </com.avadharwebworld.avadhar.Support.FeedImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/iv_fromdevice"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_marginLeft="0dp"/>
+    </LinearLayout>
+    <com.avadharwebworld.avadhar.Support.FeedImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:background="@drawable/ic_delete_forever_black_20dp"
+        android:visibility="visible"
+        android:id="@+id/iv_comment_delete">
+
+    </com.avadharwebworld.avadhar.Support.FeedImageView>
+
+</LinearLayout>

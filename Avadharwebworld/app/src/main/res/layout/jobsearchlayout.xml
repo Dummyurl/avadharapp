@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/popupborder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/jobtype"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_jonsearch_jobtype" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:text="@string/jobfulltime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_jobsearch_fulltime"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/jobparttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_jobsearch_parttime"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+
+
+        android:id="@+id/et_jobsearch_resumetitle"
+        android:hint="@string/resumetitle"
+        app:met_floatingLabel="normal" />
+
+
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_jobsearch_qualification"
+        android:spinnerMode="dialog"
+        android:layout_margin="2dp"
+        android:layout_weight="0.08" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:id="@+id/et_jobsearch_joblocation"
+        android:hint="@string/joblocationsearch"
+        app:met_floatingLabel="normal" />
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:entries="@array/experience"
+        android:id="@+id/sp_jobsearch_experience"
+        android:spinnerMode="dialog"
+
+        android:layout_weight="0.08" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_jobsearch_interestedfield"
+        android:spinnerMode="dialog"
+        android:layout_margin="2dp"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:text="@string/jobrole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <com.avadharwebworld.avadhar.Support.MultiSelectSpinner
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:layout_margin="2dp"
+        android:layout_weight="0.08"
+        android:prompt="@string/jobrole"
+        android:layout_width="match_parent"
+        android:id="@+id/sp_jobsearch_jobrole"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_jobsearch_expectedsalary"
+        android:spinnerMode="dialog"
+        android:entries="@array/expectedsalary"
+        android:layout_margin="2dp"
+        android:layout_weight="0.08" />
+    <Button
+        android:text="@string/searchfilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_jobsearch_search" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/job_action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search Friends"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_job_filter_search"
+        android:icon="@drawable/searchfilter"
+
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/search" />
+    <group >
+        <item
+            android:id="@+id/menu_job_profile"
+
+            android:title="@string/jobprofiles" />
+        <item
+            android:id="@+id/menu_job_postresume"
+
+            android:title="@string/postresume" />
+        <item
+            android:id="@+id/menu_job_postvacancy"
+
+            android:title="@string/postvacancy" />
+        <item
+            android:id="@+id/menu_job_myvacancy"
+
+            android:title="@string/viewmyvacancy" />
+        <item
+            android:id="@+id/menu_job_myfavorites"
+
+            android:title="@string/myfavorites" />
+        <item
+            android:id="@+id/menu_job_buypackage"
+
+            android:title="@string/buypackage" />
+        <item
+            android:id="@+id/menu_job_mypackges"
+
+            android:title="@string/mypackages" />
+
+
+    </group>
+
+
+</menu>

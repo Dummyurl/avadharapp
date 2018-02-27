@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/activity_view_realestate_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.avadharwebworld.avadhar.Activity.ViewRealestateDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <com.avadharwebworld.avadhar.Support.FeedImageView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="140dp"
+            style="@style/myImageView"
+            android:layout_gravity="center"
+            android:id="@+id/iv_realestate_details_feed">
+        </com.avadharwebworld.avadhar.Support.FeedImageView>
+        <TextView
+            android:text=""
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tv_realestate_details_title"
+            android:textColor="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_realestate_details_name"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="@string/property"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_tempname"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_property" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_realestate_details_property"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="@string/propertyid"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_tempcompany"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_pid" />
+
+            />
+
+        </LinearLayout>
+        <TextView
+            android:text=""
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tv_realestate_details_price"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:text="@string/contactdetails"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tv_realestate_details_contact"
+            android:textColor="@color/bb_darkBackgroundColor"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/viewUnderline"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_realestate_details_jobetype"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_tempjobtype"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_name" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_realestate_details_dfg"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/contactmobile"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_relg"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_contactnumber" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:id="@+id/lv_realestate_details_intesrested"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/email"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_enterested"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_realestate_details_email" />
+
+        </LinearLayout>
+        
+        <TabHost
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/th_realestate_details_details"
+            android:layout_weight="0.68">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/realestate_tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_realestate_details_tab1_dob"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/property"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_tempweight"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_propertytab" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_realestate_details_tab1_"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/typeofproperty"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_tab1_tempheight"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_typeofproperty" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_realestate_details_tab1"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_tab1_tempmaritialstatus"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_pricetab" />
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_realestate_details_tab1_joblocation"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/typeofactivity"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_tab1_tempjoblocation"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_typeofactivity" />
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_realestate_details_tab1_email"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/typeofuser"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_tab1_tempemail"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_typeofuser" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:id="@+id/lv_realestate_details_tab1_number"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/propertydetails"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_tab1_tempnumber"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_preperty_details" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/country"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_country" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/state"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_state" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/location"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_location" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/realestate_tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/property"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_property_tab2" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/location"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_location_tab2" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/moreaboutproperty"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_moredetails" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/availableproperty"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_avilableproperty" />
+
+                            />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:text="@string/totalarea"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorAccent"/>
+                            <TextView
+                                android:text=""
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/bb_darkBackgroundColor"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tv_realestate_details_totalarea" />
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+    </LinearLayout>
+    </ScrollView>

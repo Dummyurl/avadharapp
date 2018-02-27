@@ -1,0 +1,156 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/profile_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/FLcover"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.avadharwebworld.avadhar.Support.ProfileImageView
+            android:id="@+id/prof_coverimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            style="@style/myImageView"
+            android:src="@drawable/com_vstechlab_lib_ic_launcher" >
+        </com.avadharwebworld.avadhar.Support.ProfileImageView>
+
+
+            <TextView
+                android:id="@+id/tv_profile_editcoverpic"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:text="@string/edit"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp" />
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="bottom"
+                android:id="@+id/FLprofile"
+
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+
+                >
+
+                <com.avadharwebworld.avadhar.Support.ProfileImageView
+                    android:id="@+id/prof_profileimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|left"
+                    style="@style/myImageView"
+                    android:src="@drawable/com_vstechlab_lib_ic_launcher" >
+                </com.avadharwebworld.avadhar.Support.ProfileImageView>
+
+
+
+                <TextView
+                    android:id="@+id/tv_profile_editprofilepic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/backgroundwhite"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/bb_darkBackgroundColor"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="bottom|right"
+                    android:text="@string/edit"
+                    android:gravity="center"
+             />
+
+            </RelativeLayout>
+            <Button
+                android:text="@string/follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prof_btn_follow"
+                android:textSize="16dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="bottom|right"
+                android:layout_weight="1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rl_profilename"
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prof_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:text="name"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/cardview_dark_background" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/viewUnderline"></View>
+    <LinearLayout
+        android:layout_below="@+id/rl_profilename"
+        android:layout_width="match_parent"
+        android:id="@+id/follow_Box"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:text="@string/followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prof_btn_followers"
+            android:textSize="16dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prof_btn_following"
+
+            android:background="@color/cardview_shadow_end_color"
+            android:textSize="16dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/viewUnderline"></View>
+    </LinearLayout>

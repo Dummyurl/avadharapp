@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom= "10dp"
+    android:layout_marginTop="5dp"
+    style="@style/myImageView"
+    android:gravity="center">
+
+
+
+    <com.avadharwebworld.avadhar.Support.FeedImageView
+        android:layout_margin="10dp"
+        android:layout_width="140dp"
+        android:visibility="visible"
+        android:layout_height="140dp"
+        style="@style/myImageView"
+        android:layout_gravity="center"
+        android:src="@drawable/no_image"
+        android:id="@+id/iv_job_profile_list_feed">
+    </com.avadharwebworld.avadhar.Support.FeedImageView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:text="name"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_job_profile_list_name"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#4a8c43"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:text=""
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:maxLines="3"
+            android:gravity="center"
+            android:id="@+id/tv_job_profile_list_desc"
+            android:textColor="@color/bb_darkBackgroundColor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/jobid"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_job_profile_list_id" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/lv_job_experience"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/qualification"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_job_temp_exprnc"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_job_profile_list_qualification" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/lv_job_salary"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/expectedsalary"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_job_tempsalry"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_job_profile_list_salary" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

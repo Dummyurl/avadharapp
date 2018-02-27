@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="5dp"
+    style="@style/myImageView">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+    <com.avadharwebworld.avadhar.Support.FeedImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="160dp"
+        android:visibility="visible"
+        android:layout_height="150dp"
+        android:id="@+id/iv_education_feed">
+    </com.avadharwebworld.avadhar.Support.FeedImageView>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="4"
+            android:maxWidth="200dp"
+            android:textColor="@color/cardview_dark_background"
+            android:id="@+id/tv_education_institute" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:typeface="serif"
+            android:maxLines="4"
+            android:maxWidth="200dp"
+            android:textColor="@color/colorBottomNavigationPrimary"
+            android:id="@+id/tv_education_program" />
+</LinearLayout>
+
+</LinearLayout>

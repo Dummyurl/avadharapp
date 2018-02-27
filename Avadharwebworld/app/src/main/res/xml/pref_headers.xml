@@ -1,0 +1,31 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.avadharwebworld.avadhar.Activity.SettingsActivity$Profile"
+        android:title="@string/profile" />
+
+    <header
+        android:fragment="com.avadharwebworld.avadhar.Activity.SettingsActivity$Personal"
+
+        android:title="@string/personal" />
+
+    <header
+        android:fragment="com.avadharwebworld.avadhar.Activity.SettingsActivity$Academic"
+        android:title="@string/academic" />
+
+    <header
+        android:fragment="com.avadharwebworld.avadhar.Activity.SettingsActivity$About"
+        android:title="@string/about" />
+
+    <header
+        android:fragment="com.avadharwebworld.avadhar.Activity.SettingsActivity$Account"
+
+        android:title="@string/account" />
+
+    <header
+        android:fragment="com.avadharwebworld.avadhar.Activity.SettingsActivity$MyTeam"
+        android:title="@string/myteam" />
+
+</preference-headers>

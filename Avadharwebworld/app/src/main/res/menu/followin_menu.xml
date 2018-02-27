@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group >
+        <item
+            android:id="@+id/menu_following_profile"
+
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/menu_following_follower"
+
+            android:title="@string/followers" />
+
+
+    </group>
+
+
+</menu>
